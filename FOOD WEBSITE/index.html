@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible " content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurant Website </title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+     <div class="marq">
+      <marquee width="80%" direction="left" height="30%">
+        HARSHADA'S KITCHEN
+      </marquee>
+  </div>
+        <div class="header">
+
+            <div class="nav_butt">
+               <div class="item">
+                <a href="#">HOME</a>
+               </div>
+                <div class="item">
+                <a href="#">MENU</a> 
+                </div>
+                <div class="item">
+                <a href="#">ABOUT US</a> 
+                </div>
+               <div class="item">
+                  <a href="#">GALLERY</a> 
+                </div>
+               <div class="item">
+                  <a href="#">SERVICES</a> 
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slide-container">
+        <div class="slide">
+            <img src="images/1.jpg" alt="">
+            <div class="caption">PASTA</div>
+        </div>  
+            <div class="slide">
+            <img src="images/3.jpg" alt="">
+            <div class="caption">SALAD</div>
+        </div>
+            <div class="slide">
+            <img src="images/4.jpg" alt="">
+            <div class="caption">PIZZA</div>
+        </div>
+            <div class="slide">
+            <img src="images/5.jpg" alt="">
+            <div class="caption">BURGER</div>
+        </div>
+            <div class="slide">
+            <img src="images/6.jpg" alt="">
+            <div class="caption">ICE CREAM</div>
+        </div>
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span  class="arrow next" onclick="controller(+1)">&#10095;</span>
+     </div>
+     <script src="script.js"></script>
+
+     <div class="about_container2">
+        <div class="about2"> ABOUT US  </div>
+        <p id="text2">WELCOME TO HARSHADA'S KITCHEN</p>
+        <div class="about_us2">
+            <div class="about_text2">
+                <br>
+                <br>
+                A restaurant, or, more informally, an eatery, is a business that prepares and serves food and drinks to customers.Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. 
+                <br>        
+                In Western countries, most mid-to high-range restaurants serve alcoholic beverages such as beer and wine. Some restaurants serve all the major meals, such as breakfast, lunch, and dinner (e.g., major fast food chains, diners, hotel restaurants, and airport restaurants). Other restaurants may serve only a single meal (for example, a pancake house may only serve breakfast) or they may serve two meals (e.g., lunch and dinner).
+                <br>
+                <br>
+                The Arthashastra also references establishments where prepared food was sold in ancient India. One regulation states that "those who trade in cooked rice, liquor, and flesh" are to live in the south of the city. Another states that superintendents of storehouses may give surpluses of bran and flour to "those who prepare cooked rice, and rice-cakes", while a regulation involving city superintendents references "sellers of cooked flesh and cooked rice.
+                <br>  
+                <br>
+                <br>  
+                The word derives from the French word restaurer ('to restore', 'to revive') and, being the present participle of the verb, it literally means 'that which restores'. The term restaurant was defined in 1507 as a "restorative beverage", and in correspondence in 1521 to mean 'that which restores the strength, a fortifying food or remedy'.
+                </div>
+
+            <div class="about_blk2">
+                <img src="./images/hotel.jpg" alt="" height="600" width="630" >
+            </div>
+            </div>
+        </div>
+
+
+     <div id="categ" class="categories_contaianer">
+        <p id="text3">FAMOUS</p>
+        <div class="cat" id="categ">
+            <div class="categories">
+            <div class="cat1"><p id="text5">ITALIAN</p></div>
+            <div class="cat2"><p id="text5">MEXICAN</p></div>
+            <div class="cat3"><p id="text5">DESSERT</p></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="community_container">
+    <br> 
+    <P id="text3"> Join Community</P>
+    <br><br><br>
+    <input type="text" placeholder="    Enter your Email" name="" id="email" >  <br> <br>
+    <button type="submit" class="b1">Sign IN</button><br><br><button type="submit" class="b1">Sign Up</button>
+
+
+</div>
+
+
+    <div class="info_container">
+        <div class="info_map">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15067.756384378334!2d73.1451793!3d19.2414859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbfaa944a6e77d92d!2sRegency%20Avenue!5e0!3m2!1sen!2sin!4v1631120550481!5m2!1sen!2sin"  width="760" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="info1">
+
+            <div class="info_form">
+                <p id="text6">Feedback Form</p>
+                <form action="">
+                    <label for="fname">Name</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" >
+                    <br>
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <br>
+                    <textarea cols="30" rows="10"></textarea>
+                    <br>
+                    <button type="submit" class="b3"  >Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="footer_container">  
+        <div class="footer">
+            
+            <div class="add_footer">
+                <p id="text7">Office Adsress</p>
+                <br>
+                <p id="text8">MAHARASHTRA
+                <br>MUMBAI
+                <br>492145</p>
+            </div>
+            <div class="social_footer">
+              <p id="text7" >Follow Us On</p>
+               <div class="apps">
+                   <br>
+                   &nbsp;
+                   <img src="images/instagram.png" alt="insta" width="30px" height="30px">
+                   &nbsp;
+                   <img src="images/facebook.png" alt="fb" width="30px" height="30px">
+                   &nbsp;
+                   <img src="images/linkedin.png" alt="li" width="30px" height="30px">
+                   &nbsp;
+                   <img src="images/googleplus.png" alt="G" width="30px" height="30px">
+                </div>     
+
+            </div>
+            <div class="info_footer">
+              <p id="text7"> Contact Us </p> 
+               <p id="text8"> <br>
+                +91 9869335369 <br>
+                harshadakitchen@gmail.com<br>
+            </p>
+            </div>
+
+     
+
+      </div>
+      </div>
+    
+     
+    </body>
+    </html>
